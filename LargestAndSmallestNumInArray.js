@@ -15,7 +15,6 @@ const getSmallestNum = (arr) => {
 console.log(getSmallestNum(arr));
 
 // small number using reduce
-
 const getSmallestNumUsingReduce = (arr) =>
   arr.reduce((currentVal, num) => Math.min(currentVal, num));
 
@@ -34,3 +33,9 @@ const getLargestNum = (arr) => {
 };
 
 console.log(getLargestNum(arr));
+
+// large number using reduce
+const getLargestNumUsingReduce = (arr) =>
+  arr.reduce((currentVal, num) => Math.max(currentVal, num));
+
+console.log(getLargestNumUsingReduce(arr));
