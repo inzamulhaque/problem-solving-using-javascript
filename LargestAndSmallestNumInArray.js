@@ -13,3 +13,10 @@ const getSmallestNum = (arr) => {
 };
 
 console.log(getSmallestNum(arr));
+
+// small number using reduce
+
+const getSmallestNumUsingReduce = (arr) =>
+  arr.reduce((currentVal, num) => Math.min(currentVal, num));
+
+console.log(getSmallestNumUsingReduce(arr));
