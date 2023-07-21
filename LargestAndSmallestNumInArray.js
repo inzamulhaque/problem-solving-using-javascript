@@ -20,3 +20,17 @@ const getSmallestNumUsingReduce = (arr) =>
   arr.reduce((currentVal, num) => Math.min(currentVal, num));
 
 console.log(getSmallestNumUsingReduce(arr));
+
+const getLargestNum = (arr) => {
+  let largeNum = Number.NEGATIVE_INFINITY;
+
+  for (const num of arr) {
+    if (largeNum < num) {
+      largeNum = num;
+    }
+  }
+
+  return largeNum;
+};
+
+console.log(getLargestNum(arr));
