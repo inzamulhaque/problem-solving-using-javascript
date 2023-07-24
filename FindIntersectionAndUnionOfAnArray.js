@@ -4,3 +4,7 @@ const arr2 = [4, 1, 5, 7, 3, 9, 6];
 // Find Intersection
 const intersectionArr = arr1.filter((val) => arr2.indexOf(val) !== -1);
 console.log(intersectionArr);
+
+// Find Union
+const unionArr = [...new Set([...arr1, ...arr2])];
+console.log(unionArr);
