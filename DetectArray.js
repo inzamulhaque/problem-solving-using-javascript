@@ -5,3 +5,7 @@ console.log(Array.isArray(arr));
 
 // method 2
 console.log(arr instanceof Array);
+
+// typeof
+console.log(typeof {});
+console.log(typeof arr);
