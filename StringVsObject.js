@@ -19,3 +19,5 @@ obj3.name = "MD IH Alif";
 console.log(obj1);
 console.log(obj2);
 console.log(obj3);
+console.log(obj1 == obj2);
+console.log(obj1 == obj3);
